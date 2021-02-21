@@ -2,9 +2,6 @@ from question_model import Question
 from data import question_data
 from quiz_brain import QuizBrain
 
-def displayIntro():
-    print('Hello. and Welcome to the game! What is your name?')
-    myname = input()
 print ('This is a quiz game that tests your knowledge of Technology.')
 
 question_bank = []
@@ -22,7 +19,3 @@ while quiz.still_has_questions():
 print("You've completed the quiz")
 print(f"Your final score was: {quiz.score}/{quiz.question_number}")
 print('Do you want to play again? (yes or no)')
-playagain = 'yes'
-while playagain == 'yes': 
-    displayIntro()
-    playAgain = input()
