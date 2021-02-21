@@ -4,8 +4,8 @@ from quiz_brain import QuizBrain
 
 def displayIntro():
     print('Hello. and Welcome to the game! What is your name?')
-myname = input()
-print ('Well, ' +myname + ' This is a quiz game that tests your knowledge of Technology.')
+    myname = input()
+print ('This is a quiz game that tests your knowledge of Technology.')
 
 question_bank = []
 for question in question_data:
