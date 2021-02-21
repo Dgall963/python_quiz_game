@@ -18,4 +18,20 @@ while quiz.still_has_questions():
 
 print("You've completed the quiz")
 print(f"Your final score was: {quiz.score}/{quiz.question_number}")
-print('Do you want to play again? (yes or no)')
+
+end = False
+while end == False:
+
+
+            response= input("Would you like to play again?\n"
+                         "If yes enter 'yes or 'y' if not enter'n' or 'no' to quit:\n")
+            if response.lower()=="no" or response.lower()=="n":
+                print("You have quit the game. Thank you for playing")
+                keep_going = "end"
+                break
+            elif response.lower()=="yes" or response.lower()=="y":
+                end = True
+                print("Here is the Technology Quiz again")
+                continue
+            else:
+                print("**Invalid input please enter 'y' if you want to play again\n or 'n' if you would like to quit game**\n")True
