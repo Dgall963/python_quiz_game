@@ -73,7 +73,7 @@ question_data = [
         "category": "Science: Computers",
         "type": "boolean",
         "difficulty": "easy",
-        "question": "'HTML' stands for Hypertext Markup Language.",
+        "question": "Google was originally called Backrub.",
         "correct_answer": "True",
         "incorrect_answers": [
             "False"
